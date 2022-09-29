@@ -1,0 +1,138 @@
+body {
+  margin: auto;
+}
+
+nav {
+  background-color: #fff;
+  color: white;
+  border-bottom: 1px solid #fa7d87;
+}
+.navbar-brand {
+  color: #f3d8d1;
+}
+.navbar-nav a {
+  color: #fff;
+  transition: all ease 0.5s;
+}
+.navbar-nav.ml-auto a:hover,
+.navbar-nav.ml-auto a:focus,
+.navbar-nav.ml-auto a:active{
+  color: #fff;
+  background: #e57373;
+  border-bottom: 1px #fff;
+}
+.header-slider .carousel .carousel-item {
+  height: 500px;
+}
+
+.header-slider .carousel-item img {
+  object-fit: cover;
+  background-size: cover;
+  opacity: 0.8;
+}
+.header-slider h3 {
+  font-size: 45px;
+  margin-bottom: 230px;
+  color: #e57373;
+  opacity: 0.7;
+  font-size: 45px;
+  font-family: serif;
+  letter-spacing: 5px;
+}
+.header-slider .carousel-caption p {
+  opacity: 0.9;
+  font-size: 20px;
+  font-family: serif;
+}
+.card-wrapper {
+  display: flex;
+}
+
+.content-wrapper .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.content-wrapper .card img {
+  max-width: 300px;
+  max-height: 175px;
+  opacity: 0.8;
+}
+.content-wrapper .card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+.content-wrapper .carousel-inner {
+  padding: 1em;
+}
+.heading {
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #e57373;
+  text-align: center;
+}
+
+.content-wrapper .card {
+  background: #f5e4e4;
+}
+.content-wrapper p {
+  color: #fff;
+}
+.content-wrapper h5 {
+  color: #e57373;
+}
+.content-wrapper .btn-primary {
+  background-color: #e57373;
+  border: none;
+}
+.content-wrapper .card-body {
+  text-align: center;
+  font-family: serif;
+}
+
+.sosmed-item {
+  display: inline-block;
+  margin: none;
+}
+
+.icon-holder img {
+  width: 40px;
+}
+.footer-col {
+  font-size: 15px;
+}
+
+footer {
+  margin-top: 80px;
+}
+
+.py-5 {
+  text-align: center;
+  background-color: #f5e4e4;
+  height: 200px;
+}
+
+.footer-copyright {
+  background-color: #e57373;
+}
+.btn-wrapper {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+}
+.btn-wrapper button {
+  color: white;
+  display: inline-block;
+  background-color: #e57373;
+  border: none;
+  outline: none;
+  box-shadow: none;
+}
+.btn-wrapper button:hover{
+    background-color: #e57373;
+}
+.header-slider .modal-content {
+  background: #fff;
+  color: #fa7d87;
+}
